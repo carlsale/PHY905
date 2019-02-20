@@ -1,0 +1,41 @@
+# HW grading scale: check(+) --> excellent (good code and analysis) 
+#                   check    --> satisfactory (minor shortcomings in code and/or analysis)
+#                   check(-) --> significant problems w/code or analysis
+
+1) Problem 1 (area.cpp embellishments): 
+
+Your code looks great. Nice job covering all possible cases for i/o. 
+
+2)Problem 2 (sum up/down): 
+
+Your code looks good. One small nitpick is that it would be a lot faster (and the figure would
+be less chaotic looking) if you did your loop over n in logarithmic intervals, i.e.,
+
+for (int n = 2; n<=1e+8; n*=2) 
+
+The plot looks good (apart from the above suggestion), and your analysis is correct 
+(ie, you picked up the main point that the downward
+is better for the same reason that 1+a+a... is worse than a+a+...+1 in session 2). 
+
+3) Problem 3 (bessel functions): 
+
+Your code looks good. 
+
+Good analysis of the different regions and using the fact that the gsl results can be used to infer 
+what regions the up/down are failing (e.g., the green curve shows that the downward recursion is 
+no good at large x, and if you had done a similar relative error plot between gsl and upward
+recursion, the first half of your plot would look the same and then the remaining half would be
+scatter around 10^-16, which would tell us that upward recursion is good at high x.)
+  
+
+(If interested, you can understand numerical value of the slope between x=1 and 10
+using the short-distance x << l expressions of the spherical bessel and neumann functions. See Ch. 4 
+notes. Even though I haven't done it, I wonder if one can play similar games for the VERY steep 
+region above x = 30 using the asymptotic x >> l expressions for jl(x) and nl(x).)
+
+
+
+##### HW grade = check(+). 
+
+Nice job. Your codes are very well written and easy to read,and you hit all the main points 
+asked for in the analysis. 
