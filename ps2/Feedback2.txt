@@ -1,0 +1,13 @@
+
+# Grading Scale: check(+) --> excellent codes and analysis
+                 check    --> satisfactory (missing small gaps in analysis or codes)
+                 check(-) --> unsatisfactory (significant problems with codes/analysis or incomplete)  
+
+Your Milne results look like they should, but as you pointed out, something seems slightly amiss with Simpson's rule. 
+(Questions to troubleshoot-- Did you Did you try other integrands? Or try polynomials of degree 3 or less where
+we know Simpson's is exact?)
+
+  
+Grade: check
+
+
