@@ -1,0 +1,10 @@
+Grades:  check(-) :  some major problems with the codes and/or analysis
+         check    :  good (with some minor gaps in your results/analysis) 
+         check(+) :  excellent 
+         check(++) : excellent with one of the BONUS problems completed
+
+The analysis of 3 could be a bit more involved, and the exact 
+wf should be plotted. Still, it looks pretty good. 
+
+Grade: Check(+)
+
