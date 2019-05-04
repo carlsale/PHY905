@@ -32,4 +32,3 @@ If you already have Anaconda and use your own virtual environment, you may only 
    > pip install keras
    > pip install tensorflow
    
-Other things to note, the ".dat" files take quite some time to create using the simulation code. Files that have already been preloaded with sample data is included. The files "data.dat" and "origins.dat" each have 10000 data points to be used in the neural network training and validation. The files "dataTest.dat" and "originsTest.dat" each have 1000 data points for testing of the model after fitting. Feel free to use these. Or create your own!
